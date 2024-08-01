@@ -101,4 +101,6 @@ fi
 # shellcheck disable=SC2016
 echo 'export PATH=$HOME/.texlive/bin/x86_64-linux:$PATH' > "$PROFILE_D"
 
+tlmgr install comment fontawesome enumitem lastpage babel-turkish
+
 build-step "TeX Live installation successful!"
